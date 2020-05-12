@@ -1,0 +1,577 @@
+*{
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    font-family: Quicksand,sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+    color: #000;
+}
+/* .head-border::after {
+    content: '';
+    display: block;
+    background-color: #fbe100;
+    width: 97px;
+    height: 19px;
+    border-top-left-radius: 37%;
+    margin: -16px 0px;
+}
+.head-border-center::after {
+    content: '';
+    display: block;
+    background-color: #fbe100;
+    width: 97px;
+    height: 19px;
+    border-top-left-radius: 37%;
+    margin: -16px auto;
+} */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+ul
+{
+    list-style: none;
+}
+a,
+textarea:focus,
+input:focus,
+a:focus,
+i:focus,
+button:focus,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: black;
+    outline: 0px !important;
+}
+
+
+.background-bottom{
+    background: #FFFCEA;
+    width: 100%;
+    height: 38%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    /* border-top-right-radius: 46px;
+    border-top-left-radius: 46px; */
+}
+.background-top{
+    background: #FFFCEA;
+    width: 100%;
+    height: 65%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    /* border-bottom-right-radius: 29px;
+    border-bottom-left-radius: 29px; */
+}
+
+
+/*start NAV*/
+
+nav a.navbar-nav img {
+    width: 100px !important;
+}
+
+nav{
+    overflow: hidden;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+nav a.nav-link{
+    margin-right: 14px;
+}
+nav a.navbar-nav.ml-left {
+    color: #2c3e50;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+nav i.fab.fa-codepen {
+    color: #008ec7;
+    font-size: 20px;
+    margin: 6px 7px 0 0;
+}
+nav a.nav-link {
+    color: #7a7777 !important;
+}
+nav a.active {
+    color: #008ec7 !important;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgb(0, 142, 201);
+}
+/*End NAV*/
+
+
+
+/* start header */
+header {
+    overflow: hidden;
+    margin: 22px 0 0px;
+    position: relative;
+}
+header .info {
+    text-align: left;
+    margin-top: 101px;
+}
+header .info h5 {
+    /* margin-bottom: 19px; */
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 2;
+}
+header .info p {
+    color: #008ec7;
+    font-size: 45px;
+    margin: 0;
+    overflow: hidden;
+}
+header .info  span{
+    font-size: 18px;
+    color: #7a7777;
+    line-height: 35px;
+    font-weight: bold;
+}
+header .info  ul {
+    margin-top: 10px;
+    display: block;
+}
+header .info  ul li{
+display: inline-block;
+margin-left: 14px;
+}
+header .info  ul li button{
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+    width: 140px;
+    padding: 7px 0;
+    background-color: #008ec9;
+    border: 1px solid #008ec9;
+    color: #fff;
+    display: block;
+    margin-top: 11px;
+    margin-right: 25px;
+    border-radius: 8px;
+}
+header .info  ul li i {
+    color: #008ec9;
+    font-size: 24px;
+}
+header .info  ul li i:hover,
+header button.header-button:hover {
+    transform: translateY(-5px);
+}
+header .image-header img {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+/* End header */
+
+
+
+
+
+
+
+
+/* start header */
+.header_aboat {
+    overflow: hidden;
+    margin: 22px 0 0px;
+    position: relative;
+}
+.header_aboat .info {
+    text-align: left;
+    margin-top: 10px;
+}
+.header_aboat .info h5 {
+    /* margin-bottom: 19px; */
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.5; 
+    border-left: 9px solid #008ec9;
+    padding-left: 11px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.header_aboat .info  span{
+    font-size: 18px;
+    color: #7a7777;
+    line-height: 35px;
+    font-weight: bold;
+}
+.header_aboat .info  ul {
+    margin-top: 10px;
+    display: block;
+}
+.header_aboat .info  ul li{
+display: inline-block;
+margin-left: 14px;
+}
+.header_aboat .info  ul li button{
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+    width: 140px;
+    padding: 7px 0;
+    background-color: #008ec9;
+    border: 1px solid #008ec9;
+    color: #fff;
+    display: block;
+    margin-top: 11px;
+    margin-right: 25px;
+    border-radius: 8px;
+}
+.header_aboat .info  ul li i {
+    color: #008ec9;
+    font-size: 24px;
+}
+
+.header_aboat .image-header img {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.header_aboat tr a,
+.header_aboat tr {
+    color: #7a7777;
+    font-weight: bold;
+}
+.header_aboat tr a {
+    text-decoration: underline;
+}
+.header_aboat th i {
+    color: #008ec9;
+    margin-right: 6px;
+}
+/* End header */
+
+
+/* start skills header */
+.header_aboat .skill {
+    margin: 34px 0;
+}
+.header_aboat .skills .skill-img img {
+    width: 50px;
+}
+.header_aboat .skill  .skill-img {
+    display: inline-block;
+    WIDTH: 19%;
+    WIDTH: 80px;
+    text-align: left;
+    margin-right: 7px;
+}
+.header_aboat .skill .skill-data {
+    width: 70%;
+    display: inline-grid;
+    overflow: hidden;
+}
+.header_aboat .skill h3.skill-name {
+    font-size: x-large;
+    font-weight: bold;
+    color: #7a7777;
+}
+
+.progress {
+    height: 8px;
+}
+/* End skills header */
+
+
+
+
+
+
+/* start Servicese */
+
+
+.header_aboat .skills .information {
+    margin: 50px 0;
+    text-align: center;
+    overflow: hidden;
+}
+.header_aboat .skills .information i {
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: #008ec9;
+}
+p {
+    font-weight: bold;
+    color: #7a7777;
+}
+/* End Servicese*/
+
+
+
+
+/* start portfolios */
+
+
+.portfolios{
+    margin-top: 1rem!important;
+    margin: 1rem 0;
+}
+ .portfolio h3 {
+    margin: 0;
+    padding: 0;
+}
+ .portfolio h3 span {
+    color: rgba(216,213,213,.67);
+    font-size: 124px;
+    position: relative;
+    top: 38px;
+}
+
+element.style {
+    background-image: url(https://i.ibb.co/RPPYczz/Dtag.png);
+}
+.portfolio .portfolio-content {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    z-index: 99;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position-y: 0;
+    overflow: hidden;
+    transition: all 3s ease-out;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px #eee, -3px 1px 10px #eee;
+    
+}
+
+.portfolio .portfolio-content .overlay {
+    position: relative;
+    background: rgba(51,51,51,.4);
+    height: 100%;
+    width: 100%;
+    display: none;
+    transition: all .5s ease-out;
+}
+.portfolio .portfolio-content .overlay div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio .portfolio-content .overlay div a {
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+    color: #fff;
+    width: 160px;
+    padding: 7px 0;
+    background-color: #008ec7;
+    border-right: 1px solid #008ec7;
+    border-radius: 6px;
+}
+.hvr-float-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    transition-duration: .3s;
+    transition-property: transform;
+}
+
+.hvr-float-shadow:active, .hvr-float-shadow:focus, .hvr-float-shadow:hover {
+    transform: translateY(-5px);
+}
+
+.portfolio .portfolio-content:hover {
+    background-position-y: 100%;
+}
+
+.hvr-float-shadow:active:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:hover:before {
+    opacity: 1;
+    transform: translateY(5px);
+}
+.portfolio .portfolio-content:hover .overlay {
+    display: block;
+}
+/* End portfolios*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*start responsive */
+
+@media only screen and (max-width: 600px) {
+    .navbar-dark .navbar-toggler {
+        margin-top: 8px;
+    }
+    nav a.navbar-nav.ml-left {
+        font-size: 16px;
+    }
+    nav i.fab.fa-codepen {
+        font-size: 14px;
+        margin: 6px 3px 0 0;
+    }
+    header .info {
+        margin-top: 25px;
+    }
+    header .info h5 {
+        margin-bottom: 19px;
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 1;
+    }
+    header .info p {
+         font-size: initial; 
+    }
+    .typer{
+        font-size: 30px !important;
+    }
+
+    header .info ul li i {
+        font-size: 19px;
+    }
+    header .info ul li button {
+        width: 112px;
+    }
+
+
+/*  */
+
+    .header_aboat .info h5 {
+        /* margin-bottom: 19px; */
+        font-size: 27px;
+        font-weight: bold;
+        line-height: 1.5;
+        border-left: 4px solid #008ec9;
+        padding-left: 11px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .table td, .table th {
+        padding: 15px .75rem .75rem;
+        font-size:12px;
+    }
+    /*  */
+
+    /*  */
+
+    .header_aboat .skill h3.skill-name {
+        font-size: 20px;
+
+    }
+    .header_aboat .skill {
+        margin: 25px 0;
+    }
+    /*  */
+    /*  */
+    .header_aboat .skills .information {
+        margin: 40px 0;
+
+    }
+    /*  */
+
+    td a.marginstyle{
+        margin: 0 !important;
+    }
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    header .info {
+        margin-top: 25px;
+    }
+    header .info h5 {
+        margin-bottom: 19px;
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 1;
+    }
+    header .info p {
+         font-size: initial; 
+    }
+    .typer{
+        font-size: 30px !important;
+    }
+
+    header .info ul li i {
+        font-size: 19px;
+    }
+    header .info ul li button {
+        width: 112px;
+    }
+
+
+/*  */
+    nav a.navbar-nav.ml-left {
+        font-size: 16px;
+    }
+    nav i.fab.fa-codepen {
+        font-size: 14px;
+        margin: 6px 3px 0 0;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+
+        font-size: 11px;
+        padding-right: 0;
+    }
+    .header_aboat .info h5 {
+        /* margin-bottom: 19px; */
+        font-size: 29px;
+    }
+
+    .table td, .table th {
+        padding: 15px .75rem .75rem;
+        font-size:12px;
+    }
+    td a.marginstyle{
+        margin: 0 !important;
+    }
+}
+
+/*End responsive */
+
+
+
+
