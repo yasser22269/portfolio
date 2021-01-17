@@ -406,10 +406,10 @@ element.style {
     transform: translateY(-5px);
 }
 
-.portfolio .portfolio-content:hover {
+/*.portfolio .portfolio-content:hover {
     background-position-y: 100%;
 }
-
+*/
 .hvr-float-shadow:active:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:hover:before {
     opacity: 1;
     transform: translateY(5px);
