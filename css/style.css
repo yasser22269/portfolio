@@ -35,6 +35,9 @@ body{
     clear: both;
     display: table;
 }
+.smallImg{
+    height: 230px  !important;
+}
 ul
 {
     list-style: none;
@@ -277,7 +280,7 @@ margin-left: 14px;
     margin: 34px 0;
 }
 .header_aboat .skills .skill-img img {
-    width: 50px;
+    width: 75px;
 }
 .header_aboat .skill  .skill-img {
     display: inline-block;
@@ -347,23 +350,14 @@ p {
     top: 38px;
 }
 
-element.style {
-    background-image: url(https://i.ibb.co/RPPYczz/Dtag.png);
-}
 .portfolio .portfolio-content {
     width: 100%;
     height: 500px;
+    max-height: 500px;
     margin: auto;
     position: relative;
-    z-index: 99;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    background-position-y: 0;
-    overflow: hidden;
-    transition: all 3s ease-out;
-    border-radius: 10px;
-    box-shadow: 1px 2px 2px #eee, -3px 1px 10px #eee;
-    
 }
 
 .portfolio .portfolio-content .overlay {
@@ -406,10 +400,10 @@ element.style {
     transform: translateY(-5px);
 }
 
-.portfolio .portfolio-content:hover {
+/*.portfolio .portfolio-content:hover {
     background-position-y: 100%;
 }
-
+*/
 .hvr-float-shadow:active:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:hover:before {
     opacity: 1;
     transform: translateY(5px);
@@ -440,6 +434,10 @@ element.style {
 /*start responsive */
 
 @media only screen and (max-width: 600px) {
+    .header_aboat .skill .skill-img {
+        text-align: center;
+        WIDTH: 100%;
+    }
     .navbar-dark .navbar-toggler {
         margin-top: 8px;
     }
