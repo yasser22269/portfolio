@@ -1,9 +1,13 @@
 $(function(){
     'use strict';
 
-
-
-
+    // Start scroll to frontendmentor Projects
+    var search = window.location.search.split('?')[1];
+    if(search == 'frontendmentor'){
+        var access = document.getElementById("frontendmentor");
+        access.scrollIntoView({behavior: 'smooth'}, true);
+    }
+    // End scroll to frontendmentor Projects
 
  //start popUp
  $('.pop-button').click(function(e){
